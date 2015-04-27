@@ -4,7 +4,7 @@ Easy, Customizable Badges for the Travis CI Build System.
 ## What is this?  
 Travis' regular build status images can be a bit small and ordinary. Sometimes they don't match up with other badges or are just a pain to distinguish exactly which branch each one of them comes from. This is why TravisCards exists.  
 
-TravisCards are customizable in their colours, and are substantially bigger than the regular badge. Here are some examples.
+TravisCards are customizable in their colours, and are substantially bigger than the regular badge. Here are some examples.  
 ![The Default Theme](https://raw.githubusercontent.com/JacisNonsense/TravisCards/master/samples/default.png)  
 
 
