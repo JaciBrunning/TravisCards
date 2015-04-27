@@ -35,7 +35,7 @@ Now let's break down what this block does.
 ``` cards: ```  The main 'container' block for all the TravisCards settings.  
 ``` enabled: ```  A list of all the branches that should be included on the card. If nothing is specified, the card will be blank. The card will auto-size itself to fit all the branches. This also works for tags.  
 ``` title: ```  Optional. The title for the card. If this isn't specified, the card will automatically use the repository's name.  
-``` colors: ``` Optional. This contains all the custom colours to make your card unique. If this isn't set, it will automatically use the default values. More info on the colors block can be found in the [formatting guide]()  
+``` colors: ``` Optional. This contains all the custom colours to make your card unique. If this isn't set, it will automatically use the default values. More info on the colors block can be found in the [formatting guide](https://github.com/JacisNonsense/TravisCards/blob/master/FORMATTING.md)  
 
 To view your card, go to ``` http://dev.imjac.in/travis/GithubUsername/RepositoryName ```  
 *NOTE: This page will be blank the first time you visit it. This is because the card is being generated. Refresh the page and you should see your card generated.*  
