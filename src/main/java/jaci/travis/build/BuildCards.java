@@ -13,8 +13,28 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * A simple Java Program for the purpose of creating 'Cards' for the status of Travis CI builds,
+ * allowing users to add customizable features to their build status badges
+ *
+ * @author Jaci
+ */
 public class BuildCards {
 
+    /**
+     * Main startup method. Takes in 2 arguments, a Base64 JSON encoding and
+     * a project root.
+     *
+     * @param args  [0]: A Base64 encoded JSON String containing
+     *              keys for the branches and other details about
+     *              the card. More information is found in the
+     *              readme.
+     *
+     *              [1]: A project root dir. This should be where
+     *              you would like the generated cards to be saved.
+     *              If you want this to be relative, just use a '.'
+     *              (period)
+     */
     public static void main(String[] args) throws IOException {
         String json = new String(Base64.decode(args[0]));
         File filebase = new File(args[1]);

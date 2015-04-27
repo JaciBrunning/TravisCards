@@ -9,6 +9,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * The Render System for a Card. This will render the image and return the BufferedImage object
+ * given the parameters defined in the contructor.
+ *
+ * @author Jaci
+ */
 public class CardRenderer {
 
     public HashMap<String, Color> colors = new HashMap<String, Color>();
