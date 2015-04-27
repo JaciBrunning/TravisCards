@@ -80,4 +80,4 @@ Because of this, the java program requires run arguments to work. Here is the st
   }
 }
 ```  
-- Arg 1: The directory to place the rendered imnages. For most purposes, this should just be a '.' (period)
+- Arg 1: The directory to place the rendered images. For most purposes, this should just be a '.' (period)
