@@ -1,0 +1,6 @@
+.gradle/
+JaciBuildCards.iml
+JaciBuildCards.ipr
+JaciBuildCards.iws
+src/main/java/META-INF/MANIFEST.MF
+src/test/java/cards/TestWrapper.java
